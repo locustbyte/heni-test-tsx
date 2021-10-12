@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: url('./assets/globe.png');
+  background-size: cover;
+  padding: 100px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.countries-tables .MuiPaper-root{
+  background: rgba(0,0,0,0.1) !important;
+}
+
+.MuiTableCell-footer{
+  border: 0;
+}
+
+.MuiToolbar-gutters{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.MuiTableHead-root{
+  background: rgb(35 108 180 / 30%) !important;
+}
+.MuiTableCell-root{
+  background: transparent !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid rgb(43 43 43 / 40%) !important;
+}
+.MUIDataTableToolbar-left-15 {
+  flex: none !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media Queries */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .countries-tables .MuiPaper-root{
+    background: rgba(0,0,0,0.6) !important;
+    color: white;
+  }
+  .App{
+    padding: 20px;
+  }
+  .MuiButtonBase-root span{
+    color: white;
+  }
+  .MuiTableCell-root div{
+    color: white;
+  }
+}
